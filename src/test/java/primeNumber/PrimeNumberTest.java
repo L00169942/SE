@@ -13,7 +13,7 @@ public class PrimeNumberTest {
 
     @Test
     public void testIsPrime() {
-        assertTrue("Result", PrimeNumber.checkPrime(51));  
+        assertTrue("Result", PrimeNumber.checkPrime(37));  
         assertEquals(true,PrimeNumber.checkPrime(11));
 
     }
